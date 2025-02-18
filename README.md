@@ -1,2 +1,2 @@
 # LITE
-Lightweight Interactive Two-dimensional Engine
+Lightweight Interactive Two-dimensional Engine.

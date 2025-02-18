@@ -1,0 +1,12 @@
+LITE/
+│── CMakeLists.txt
+│── src/
+│   ├── main.cpp
+│── include/
+│── libs/
+│   ├── glfw/
+│   ├── glad/
+│── external/
+│   ├── CMakeLists.txt
+│── assets/  (For future assets like textures, shaders, etc.)
+

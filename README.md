@@ -1,4 +1,3 @@
-# LITE
-Lightweight Interactive Two-dimensional Engine.
-
+# LUME
+Lightweight Unified Mesh Engine
 Currently in development.

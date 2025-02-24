@@ -1,0 +1,13 @@
+[package]
+name = "ps1_engine"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+glutin = "0.27.0"  # For window management and OpenGL context
+gl = "0.14.0"       # OpenGL bindings
+nalgebra = "0.29.0" # For math (e.g., matrices, vectors)
+shaderc = "0.7.0"   # For compiling GLSL shaders
+image = "0.25"
+obj = "0.4"
+winit = "0.28"

@@ -1,0 +1,43 @@
+```
+ps1_engine/  
+├── Cargo.toml          # Rust project manifest  
+├── src/  
+│   ├── main.rs         # Entry point, initializes window & game loop  
+│   ├── graphics/       # Graphics-related modules  
+│   │   ├── mod.rs      # Re-exports submodules  
+│   │   ├── renderer.rs # OpenGL rendering logic  
+│   │   ├── shader.rs   # Shader loading & management  
+│   │   ├── texture.rs  # Texture loading & management  
+│   │   ├── model.rs    # 3D model loading (.obj support)  
+│   ├── engine/         # Core engine logic  
+│   │   ├── mod.rs      # Re-exports submodules  
+│   │   ├── game.rs     # Game state management  
+│   │   ├── camera.rs   # Camera system  
+│   │   ├── input.rs    # Input handling (keyboard, mouse)  
+│   │   ├── math.rs     # Custom fixed-point math for PS1-style effects  
+│   ├── utils/          # Helper functions  
+│   │   ├── mod.rs      # Re-exports submodules  
+│   │   ├── file.rs     # File loading utilities  
+│   │   ├── timer.rs    # Frame timing & FPS cap  
+├── assets/             # Game assets (textures, models, shaders)  
+│   ├── textures/       # Textures for the game  
+│   ├── models/         # 3D models (.obj, .md2, etc.)  
+│   ├── shaders/        # GLSL shaders  
+│   │   ├── vertex.glsl  
+│   │   ├── fragment.glsl  
+└── README.md           # Project description  
+```
+
+### **Breakdown of Key Parts**
+- **`main.rs`** → Initializes the engine, sets up the game loop, and calls rendering functions.  
+- **`graphics/`** → Handles OpenGL rendering, shaders, textures, and model loading.  
+- **`engine/`** → Manages game state, camera movement, input handling, and math calculations.  
+- **`utils/`** → Utility functions for file handling, timing, and debugging.  
+- **`assets/`** → Stores all external assets like models, textures, and shaders.  
+
+### **Next Steps**
+1. Set up `glutin` for OpenGL windowing.  
+2. Load shaders from `assets/shaders/`.  
+3. Render a simple textured 3D model.  
+
+Want me to generate the initial Rust files for you? 🚀
